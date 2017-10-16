@@ -1,24 +1,13 @@
-# Prepare #
-* Download Iso File of Ubuntu
-* Pull Ubuntu Image from Docker Hub 
-* Create simple Docker File for Ubuntu with 2 files
+# Demo script Techdays 2017 From Docker Huh to Wow #
 
-## Before the session ##
-* Clean up docker images
-* Set up Team Viewer connection
-* Start Kahoot and start a new Game
-* Start VSTS with Build open
-* Open Code with DockerFile for layering
-* Start an Agent
-* Open DockerHub op Images dockerhuh
-* login dockerhub op command line
-* inloggen Keepass
-* Inloggen Azure Container Registry
+## Session Details ##
 
-```
-docker stop $(docker ps -a -q)
-docker rm $(docker ps -a -q)
-```
+Session by
+*  [Jasper Gilhuis](https://twitter.com/jaspergilhuis) 
+* [Rene van Osnabrugge](https://twitter.com/renevo)
+
+## Abstract ##
+Although it seems that everyone is working with Docker already and that it is common knowledge for everyone, the reality is different. It is still new, strange and a bit scary to get started. Our first experience with Docker was exactly like that. But, when we got our hands on it we could see the true power and value.
 
 # Demo 1 VM vs. Docker#
 After we have introduced ourselves and introduced the workings of the game, we introduce the contest we are going to do on stage. We are going to spin up a new fresh Linux Ubuntu Image. Jasper is going to demo this on his own PC with Hyper-V and the already downloaded Iso file, and I am going to do that with a container..
